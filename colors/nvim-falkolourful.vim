@@ -9,7 +9,7 @@ if exists("syntax_on")
     syntax reset
 endif
 
-let g:colors_name = "falk"
+let g:colors_name = "nvim-falkolurful"
 
 " if !exists("g:falk_html_link_underline")
 "     let g:falk_html_link_underline = 1
@@ -381,16 +381,6 @@ call g:HL( 'ALEInfoSign'         , 'white'        , 'none'       , 'bold' )
 call g:HL( 'TagbarAccessPublic'  , 'green'                                ) 
 call g:HL( 'TagbarAccessPrivate' , 'red'                                  ) 
 " Tagbar }}}
-let g:commentHighlightStatus = 0 " off by default
-function! g:CommentHighlightToggle() " {{{
-   if g:commentHighlightStatus == 0
-      call g:HL( 'Comment', 'comment_highlight' )
-      let g:commentHighlightStatus = 1
-   else
-      call g:HL( 'Comment', 'comment_discreet' )
-      let g:commentHighlightStatus = 0
-   endif
-endfunction " }}}
 " Colorscheme }}}
 " Misc Leftovers & Junk [TODO: clean up!] {{{
 " changes cursor background color depending on mode
