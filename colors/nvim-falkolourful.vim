@@ -382,7 +382,7 @@ call g:HL( 'TagbarAccessPublic'  , 'green'                                )
 call g:HL( 'TagbarAccessPrivate' , 'red'                                  ) 
 " Tagbar }}}
 let g:commentHighlightStatus = 0 " off by default
-function! CommentHighlightToggle() " {{{
+function! g:CommentHighlightToggle() " {{{
    if g:commentHighlightStatus == 0
       call g:HL( 'Comment', 'comment_highlight' )
       let g:commentHighlightStatus = 1
