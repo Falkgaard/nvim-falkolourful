@@ -9,7 +9,7 @@ if exists("syntax_on")
     syntax reset
 endif
 
-let g:colors_name = "nvim-falkolurful"
+let g:colors_name = "nvim-falkolourful"
 
 " if !exists("g:falk_html_link_underline")
 "     let g:falk_html_link_underline = 1
