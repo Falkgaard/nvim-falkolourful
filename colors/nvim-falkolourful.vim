@@ -41,9 +41,9 @@ call g:HL( 'FalklineLineGitSymbol'  , 'white'      , 'mid_dark'   , 'none'   )
 call g:HL( 'FalklineLineCol'        , 'mid_dark'   , 'none'       , 'none'   )
 call g:HL( 'FalklineLineColBody'    , 'dim_fg'     , 'mid_dark'   , 'none'   )
 call g:HL( 'FalklineAleOkBody'      , 'white'      , 'green'      , 'bold'   )
-call g:HL( 'FalklineAleWarningBody' , 'white'      , 'warning_lo' , 'bold'   )
-call g:HL( 'FalklineAleErrorBody'   , 'white'      , 'error'      , 'bold'   )
-call g:HL( 'FalklineAleSpacer'      , 'error'      , 'warning_lo' , 'none'   )
+call g:HL( 'FalklineAleWarningBody' , 'red'        , 'yellow'     , 'bold'   )
+call g:HL( 'FalklineAleErrorBody'   , 'white'      , 'red'        , 'bold'   )
+call g:HL( 'FalklineAleSpacer'      , 'red'        , 'yellow'     , 'none'   )
 " Primary and secondary colours, changed in RedrawModeColors()
 let g:FalklineMainA = 'mid_dark'
 let g:FalklineMainB = 'none'
