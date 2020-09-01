@@ -127,10 +127,10 @@ call g:HL( 'PmenuThumb'                , 'test_fg'         , 'pmenu_bg'         
 " PMenu }}}
 " Spell Checker {{{
 if has("spell")
-  call g:HL( 'SpellCap'                , ''                , ''                , 'undercurl,bold' , 'dalespale' )
-  call g:HL( 'SpellBad'                , ''                , ''                , 'undercurl'      , 'dalespale' )
-  call g:HL( 'SpellLocal'              , ''                , ''                , 'undercurl'      , 'dalespale' )
-  call g:HL( 'SpellRare'               , ''                , ''                , 'undercurl'      , 'dalespale' )
+"  call g:HL( 'SpellCap'                , ''                , ''                , 'undercurl,bold' , 'dalespale' )
+"  call g:HL( 'SpellBad'                , ''                , ''                , 'undercurl'      , 'dalespale' )
+"  call g:HL( 'SpellLocal'              , ''                , ''                , 'undercurl'      , 'dalespale' )
+"  call g:HL( 'SpellRare'               , ''                , ''                , 'undercurl'      , 'dalespale' )
 endif
 " Spell Checker }}}
 " CtrlP {{{
