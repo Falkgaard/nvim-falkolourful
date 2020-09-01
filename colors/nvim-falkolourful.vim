@@ -187,8 +187,8 @@ call g:HL( 'diffLine'                  , 'test_fg'              , 'none'        
 call g:HL( 'diffSubname'               , 'test_fg'              , 'test_xg'             , 'none'     )
 call g:HL( 'DiffDelete'                , 'red'                  , 'dark_red'            , ''         )
 call g:HL( 'DiffAdd'                   , 'none'                 , 'dark_green'          , ''         )
-call g:HL( 'DiffChange'                , 'test_xg'              , 'test_fg'             , ''         )
-call g:HL( 'DiffText'                  , 'test_xg'              , 'black'               , 'bold'     )
+call g:HL( 'DiffChange'                , 'none'                 , 'dark_orange'         , ''         )
+call g:HL( 'DiffText'                  , 'black'                , 'orange'              , 'bold'     )
 " vim-fugitive }}}
 " Git }}}
 "" ??? {{{
