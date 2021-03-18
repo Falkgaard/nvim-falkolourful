@@ -125,6 +125,10 @@ call g:HL( 'PmenuSel'                  , 'pmenu_on_fg'     , 'pmenu_bg'         
 call g:HL( 'PmenuSbar'                 , 'test_fg'         , 'pmenu_bg'                     )
 call g:HL( 'PmenuThumb'                , 'test_fg'         , 'pmenu_bg'                     )
 " PMenu }}}
+" Coc {{{
+call g:HL( 'CocErrorSign'              , 'error'           , ''                    , ''     )
+call g:HL( 'CocFloating'               , 'plain_fg'        , ''                    , ''     )
+" Coc }}}
 " Spell Checker {{{
 if has("spell")
 "  call g:HL( 'SpellCap'                , ''                , ''                , 'undercurl,bold' , 'dalespale' )
