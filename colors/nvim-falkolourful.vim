@@ -127,7 +127,7 @@ call g:HL( 'PmenuThumb'                , 'test_fg'         , 'pmenu_bg'         
 " PMenu }}}
 " Coc {{{
 call g:HL( 'CocErrorSign'              , 'error'           , ''                    , ''     )
-call g:HL( 'CocFloating'               , 'plain_fg'        , ''                    , ''     )
+call g:HL( 'CocFloating'               , 'plain_fg'        , 'dark_fg'             , ''     )
 " Coc }}}
 " Spell Checker {{{
 if has("spell")
