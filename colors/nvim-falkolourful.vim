@@ -91,6 +91,7 @@ call g:HL( 'Todo'                      , 'todo_discreet'   , 'none'             
 call g:HL( 'SpecialComment'            , 'prio_comment_fg' , 'prio_comment_bg'     , 'bold,underline' )
 call g:HL( 'String'                    , 'string_fg'                                    )
 call g:HL( 'Statement'                 , 'controlflow_fg'  , 'none'                , 'bold' )
+call g:HL( 'Annotation'                , 'annotation_fg'   , 'none'                , 'bold' )
 call g:HL( 'Keyword'                   , 'controlflow_fg'  , 'none'                , 'bold' )
 call g:HL( 'Conditional'               , 'controlflow_fg'  , 'none'                , 'bold' )
 call g:HL( 'Operator'                  , 'controlflow_fg'  , 'none'                , 'none' )
