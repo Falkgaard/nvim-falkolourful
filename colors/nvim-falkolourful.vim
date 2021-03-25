@@ -87,8 +87,9 @@ call g:HL( 'iCursor'                   , 'cursor_fg'       , 'cursor_bg' , 'none
 " Code Syntax {{{
 call g:HL( 'Special'                   , 'special_fg'                                       )
 call g:HL( 'Comment'                   , 'comment_discreet', ''                    , 'none' )
-call g:HL( 'Todo'                      , 'todo_discreet'   , 'none'                , 'bold,underline' ) " TODO: eat ass
-call g:HL( 'SpecialComment'            , 'prio_comment_fg' , 'prio_comment_bg'     , 'bold,underline' )
+call g:HL( 'Todo'                      , 'todo_discreet'   , 'none'                , 'bold,underline' )
+call g:HL( 'Time'                      , 'time_discreet'   , 'none'                , 'none' )
+call g:HL( 'SpecialComment'            , 'todo_discreet'   , 'none'                , 'bold,underline' )
 call g:HL( 'String'                    , 'string_fg'                                    )
 call g:HL( 'Statement'                 , 'controlflow_fg'  , 'none'                , 'bold' )
 call g:HL( 'Annotation'                , 'annotation_fg'   , 'none'                , 'bold' )
