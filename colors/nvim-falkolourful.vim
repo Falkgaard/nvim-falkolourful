@@ -80,7 +80,7 @@ call g:HL( 'SignColumn'   , 'line_nr_fg'       , 'none'       ) " , s:gutter )
 call g:HL( 'FoldColumn'   , 'test_fg'          , 'black'      ) " , s:gutter )
 " General/UI }}}
 " Snippets {{{
-call g:HL( 'SnippetPlaceholder' , 'snip_fg'          , 'snip_bg' , 'bold'      ) 
+call g:HL( 'SnippetPlaceholder' , 'snip_fg'          , 'snip_bg' , 'bold,underline'      ) 
 " Snippets }}}
 " Cursor {{{
 call g:HL( 'Cursor'                    , 'cursor_fg'       , 'cursor_bg' , 'bold'      )
