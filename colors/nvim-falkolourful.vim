@@ -79,6 +79,9 @@ call g:HL( 'CursorLineNr' , 'line_nr_hilight'                 )
 call g:HL( 'SignColumn'   , 'line_nr_fg'       , 'none'       ) " , s:gutter )
 call g:HL( 'FoldColumn'   , 'test_fg'          , 'black'      ) " , s:gutter )
 " General/UI }}}
+" Snippets {{{
+call g:HL( 'SnippetPlaceholder' , 'snip_fg'          , 'none'      ) 
+" Snippets }}}
 " Cursor {{{
 call g:HL( 'Cursor'                    , 'cursor_fg'       , 'cursor_bg' , 'bold'      )
 call g:HL( 'vCursor'                   , 'cursor_fg'       , 'cursor_bg' , 'bold'      )
