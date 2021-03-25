@@ -124,8 +124,8 @@ call g:HL( 'Ignore'                    , 'warning_hi'      , 'none'             
 " Errors, Warnings, Exceptions }}}
 " PMenu {{{
 call g:HL( 'Pmenu'                     , 'pmenu_off_fg'    , 'pmenu_off_bg'                 )
-call g:HL( 'PmenuSel'                  , 'pmenu_on_fg'     , 'pmenu_off_bg'        , 'bold' ) 
-call g:HL( 'PmenuSbar'                 , 'test_fg'         , 'pmenu_bg'                     )
+call g:HL( 'PmenuSel'                  , 'pmenu_on_fg'     , 'pmenu_on_bg'         , 'bold' ) 
+call g:HL( 'PmenuSbar'                 , 'test_fg'         , 'test_fg'                      )
 call g:HL( 'PmenuThumb'                , 'test_fg'         , 'pmenu_bg'                     )
 " PMenu }}}
 " Coc {{{
