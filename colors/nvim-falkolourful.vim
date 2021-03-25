@@ -88,6 +88,7 @@ call g:HL( 'iCursor'                   , 'cursor_fg'       , 'cursor_bg' , 'none
 call g:HL( 'Special'                   , 'special_fg'                                       )
 call g:HL( 'Comment'                   , 'comment_discreet', ''                    , 'none' )
 call g:HL( 'Todo'                      , 'todo_discreet'   , 'none'                , 'bold,underline' )
+call g:HL( 'UserSignature'             , 'user_discreet'   , 'none'                , 'bold' )
 call g:HL( 'Time'                      , 'time_discreet'   , 'none'                , 'none' )
 call g:HL( 'SpecialComment'            , 'todo_discreet'   , 'none'                , 'bold,underline' )
 call g:HL( 'String'                    , 'string_fg'                                    )
