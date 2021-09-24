@@ -80,7 +80,7 @@ call g:HL( 'SignColumn'   , 'line_nr_fg'       , 'none'       ) " , s:gutter )
 call g:HL( 'FoldColumn'   , 'test_fg'          , 'black'      ) " , s:gutter )
 " General/UI }}}
 " Snippets {{{
-call g:HL( 'SnippetPlaceholder' , 'snip_fg'          , 'snip_bg' , 'bold,underline'      ) 
+call g:HL( 'SnippetPlaceholder'        , 'snip_fg'         , 'snip_bg'   , 'bold,underline'    ) 
 " Snippets }}}
 " Cursor {{{
 call g:HL( 'Cursor'                    , 'cursor_fg'       , 'cursor_bg' , 'bold'      )
@@ -94,7 +94,7 @@ call g:HL( 'Todo'                      , 'todo_discreet'   , 'none'             
 call g:HL( 'UserSignature'             , 'user_discreet'   , 'none'                , 'bold' )
 call g:HL( 'Time'                      , 'time_discreet'   , 'none'                , 'none' )
 call g:HL( 'SpecialComment'            , 'todo_discreet'   , 'none'                , 'bold,underline' )
-call g:HL( 'String'                    , 'string_fg'                                    )
+call g:HL( 'String'                    , 'string_fg'                                        )
 call g:HL( 'Statement'                 , 'controlflow_fg'  , 'none'                , 'bold' )
 call g:HL( 'Annotation'                , 'annotation_fg'   , 'none'                , 'bold' )
 call g:HL( 'Keyword'                   , 'controlflow_fg'  , 'none'                , 'bold' )
@@ -119,6 +119,9 @@ call g:HL( 'StorageClass'              , 'keyword_fg'      , 'none'             
 call g:HL( 'Structure'                 , 'type_fg'         , 'none'                , 'none' )
 call g:HL( 'Typedef'                   , 'test_fg'         , 'none'                , 'bold' )
 " Code Syntax }}}
+" CMake {{{
+call g:HL( 'cmakeArgument'             , 'yellow_light'    , 'none'                , 'bold' )
+" CMake }}}
 " Errors, Warnings, Exceptions {{{
 call g:HL( 'Exception'                 , 'exception'       , 'none'                , 'bold' )
 call g:HL( 'Error'                     , 'white'           , 'error'               , 'bold' )
