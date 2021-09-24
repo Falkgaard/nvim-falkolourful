@@ -120,7 +120,7 @@ call g:HL( 'Structure'                 , 'type_fg'         , 'none'             
 call g:HL( 'Typedef'                   , 'test_fg'         , 'none'                , 'bold' )
 " Code Syntax }}}
 " CMake {{{
-call g:HL( 'cmakeArgument'             , 'yellow_light'    , 'none'                , 'bold' )
+call g:HL( 'cmakeArguments'            , 'yellow_light'    , 'none'                , 'bold' )
 " CMake }}}
 " Errors, Warnings, Exceptions {{{
 call g:HL( 'Exception'                 , 'exception'       , 'none'                , 'bold' )
