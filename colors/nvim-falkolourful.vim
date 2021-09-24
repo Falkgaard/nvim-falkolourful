@@ -70,7 +70,7 @@ call g:HL( 'Directory'    , 'folder_fg'                                      )
 call g:HL( 'Title'        , 'bright_fg'                                      )
 call g:HL( 'ErrorMsg'     , 'error'            , 'none'        , 'bold'      )
 call g:HL( 'MoreMsg'      , 'yellow_light'     , 'none'        , 'bold'      )
-call g:HL( 'ModeMsg'      , 'test_fg'          , 'none'        , 'bold'      )
+call g:HL( 'ModeMsg'      , 'yellow_light'     , 'none'        , 'bold'      )
 call g:HL( 'Question'     , 'white'            , 'none'        , 'bold'      )
 call g:HL( 'WarningMsg'   , 'warning_hi'       , 'none'        , 'bold'      )
 call g:HL( 'Tag'          , 'test_fg'          , 'none'        , 'bold'      ) "ctags tag; not HTML tag. Something you can use c-] on.
@@ -119,9 +119,6 @@ call g:HL( 'StorageClass'              , 'keyword_fg'      , 'none'             
 call g:HL( 'Structure'                 , 'type_fg'         , 'none'                , 'none' )
 call g:HL( 'Typedef'                   , 'test_fg'         , 'none'                , 'bold' )
 " Code Syntax }}}
-" CMake {{{
-call g:HL( 'cmakeArguments'            , 'yellow_light'    , 'none'                , 'bold' )
-" CMake }}}
 " Errors, Warnings, Exceptions {{{
 call g:HL( 'Exception'                 , 'exception'       , 'none'                , 'bold' )
 call g:HL( 'Error'                     , 'white'           , 'error'               , 'bold' )
