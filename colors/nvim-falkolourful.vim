@@ -88,6 +88,7 @@ call g:HL( 'vCursor'                   , 'cursor_fg'       , 'cursor_bg' , 'bold
 call g:HL( 'iCursor'                   , 'cursor_fg'       , 'cursor_bg' , 'none'      )
 " Cursor }}}
 " Code Syntax {{{
+call g:HL( 'CocInlayHint'              , 'inlay_discreet'  , 'none'                , 'bold' )
 call g:HL( 'Special'                   , 'special_fg'                                       )
 call g:HL( 'Comment'                   , 'comment_discreet', ''                    , 'none' )
 call g:HL( 'Todo'                      , 'todo_discreet'   , 'none'                , 'bold,underline' )
